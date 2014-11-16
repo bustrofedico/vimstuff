@@ -13,7 +13,6 @@ Plugin 'Lokaltog/vim-easymotion'
 Plugin 'godlygeek/tabular'
 Plugin 'ironcamel/vimchat'
 Plugin 'vim-ruby/vim-ruby'
-Plugin '907th/vim-auto-save'
 Plugin 'kurkale6ka/vim-swap'
 Plugin 'tpope/vim-repeat'
 Plugin 'flazz/vim-colorschemes'
@@ -55,7 +54,7 @@ set backupskip+=*.gpg
 " deleting, empty the 'viminfo' option.
 set viminfo=
 "autosave 
-let g:auto_save = 1
+" let g:auto_save = 1
 
 augroup encrypted
   au!
